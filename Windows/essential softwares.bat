@@ -8,8 +8,8 @@ set /p installDefaultQuestion=Install default softwares? [y/n]?:
 set /p installDevelopmentQuestion=Install development softwares? [y/n]?:
 
 IF %installDefaultQuestion% EQU y (
-    echo will be installed: chrome, 7zip, vlc, discord qbittorrent and teamviewer.
-	choco install googlechrome 7zip vlc discord qbittorrent teamviewer
+    echo will be installed: chrome, 7zip, vlc, spotify, discord qbittorrent and teamviewer.
+	choco install googlechrome 7zip vlc spotify discord qbittorrent teamviewer
 )
 
 IF %installDevelopmentQuestion% EQU y (
